@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,sans-serif;
+}
+.header-1{
+    background-color: black;
+}
+.container-header-1{
+    width: 1284px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.header-1 .phone{
+    float: left;
+}
+.header-1 .phone span{
+    float: left;
+    line-height: 45px;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.header-1 a:hover{
+    text-decoration: underline;
+    color:orange;
+}
+.login{
+    float: right;
+}
+.login span{
+    float: left;
+    line-height: 45px;
+    color: azure;
+    padding-left: 15px;
+}
+.login a{
+    padding: 0 25px;
+}
+hr{
+    width: 1920px;
+}
+header .container-header{
+    width: 1284px;
+    margin: 0 auto;
+}
+header .banner .logo{
+    float: left;
+    padding: 15px 0;
+}
+header .banner .img{
+    float: right;
+    padding: 35px 0;
+    margin-right: 35px;
+}
+nav .container-nav{
+    width: 1284px;
+    margin: 0 auto
+}
+nav .menu{
+    float: left;
+}
+nav .menu ul.root{
+    list-style: none;
+}
+nav .menu ul.root > li{
+    float: left;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 0 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+nav .menu ul.root li > a{
+    color: black;
+    display: block;
+}
+.menu ul.root ul.submenu li a{
+    color: white;
+}
+.menu ul.root ul.submenu li > a:hover{
+    color: black;
+}
+ul.submenu {
+    width: 292px;
+    background-color: green;
+    display: none;
+    position: absolute;
+}
+ul.submenu li a {
+    border-bottom: 1px solid black;
+    text-indent: 10px;
+}
+ul.submenu li a:hover {
+    text-decoration: underline;
+}
+ul.root > li:hover ul.submenu {
+    display: block;
+}
+nav .search{
+    float: right;
+    line-height: 55px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+}
+nav input{
+    font-size: 18px;
+}
+nav button{
+    font-size: 18px;
+    
+}
+nav img{
+    margin-bottom: 50px;
+}
+button:hover{
+    color: orange;
+}
+section .container{
+    width: 1284px;
+    margin: 0 auto;
+}
+section .left{
+    width: 292px;
+    float: left;
+}
+section .module{
+    background-repeat: repeat;
+    background-color:green;
+    margin-bottom: 5px;
+}
+section h3{
+    text-align: center;
+    color: azure;
+    background-color: darkgreen;
+    height: 45px;
+    line-height: 45px;
+    background-position: left top;
+    text-transform: uppercase;
+}
+section hr{
+    width: 290px;
+}
+section ul{
+    list-style: none;
+}
+section ul li a{
+    display: block;
+    background-repeat: no-repeat;
+    height: 29px;
+    margin-left: 35px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+section a:hover{
+    color: black;
+}
+section .images .item img{
+    margin-left: 66px;
+    margin-bottom: 500px;
+}
+
+footer{
+    background-color:dimgray;
+    height: 350px;
+}
+footer .container{
+    width: 1284px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+footer hr{
+    width: 90px;
+    border: 2px orange solid;
+    margin-bottom: 20px;
+}
+footer h3{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    color: white;
+    font-size: 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+footer a img{
+    color: black;
+    margin-left: 25px;
+}
+.test{
+    background-color: black;
+}
+.test .container{
+    width: 1284px;
+    margin: 0 auto;
+}
+.test .line{
+    float: right;
+    margin-top: 25px;
+    padding-right: 150px;
+}
+.test .line span{
+    color: white;
+}
+.test .line a:hover{
+    text-decoration: underline;
+    color: orange;
+}
